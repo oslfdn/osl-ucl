@@ -1,0 +1,404 @@
+===============================================================================
+                      OPEN SOURCE LIFE — UNIVERSAL COPYLEFT LICENSE
+                                   (OSL-UCL) VERSION 2.5.0
+                                  OFFICIAL LICENSE TEXT (TXT)
+===============================================================================
+
+
+PREAMBLE
+--------
+
+The Open Source Life – Universal Copyleft License (“OSL-UCL” or “License”) is a
+perpetual, irrevocable, international legal instrument designed to ensure
+maximal user freedom, mandatory transparency, and durable openness of all
+Derivative Works across all present and future technological environments.
+
+This License shall be interpreted purposively to:
+
+  (a) preserve user rights;
+  (b) prevent technological, contractual, or legal circumvention;
+  (c) maintain the commons created under it;
+  (d) apply across all jurisdictions; and
+  (e) bind all entities, including non-human or computational agents.
+
+Where ambiguity exists, the interpretation most protective of user freedom and
+most restrictive against enclosure shall prevail.
+
+
+
+===============================================================================
+ARTICLE 1 — DEFINITIONS
+===============================================================================
+
+1.1  “Work” means the creation licensed under this License, including technical,
+     functional, scientific, artistic, cultural, and engineering material.
+
+1.2  “Source Form” means the preferred, fully editable, human-readable form of
+     the Work.
+
+1.3  “Object Form” means any non-source, compiled, fabricated, or executable
+     form of the Work.
+
+1.4  “Derivative Work” means any work that modifies, adapts, extends,
+     integrates, translates, transforms, reimplements, or otherwise incorporates
+     the Work, directly or indirectly.
+
+1.5  “Distribution” means making the Work or a Derivative Work available to any
+     third party by any means.
+
+1.6  “Technical Restriction Mechanism” (TRM) means any mechanism that restricts
+     inspection, modification, execution, or interoperability, including DRM,
+     TPMs, HSMs, enclaves, secure elements, attestation systems, fuse-locking,
+     vendor-controlled signatures, remote execution gating, or cloud-controlled
+     integrity models.
+
+1.7  “Closed System” means any system that does not permit full user inspection,
+     modification, replacement, or analysis.
+
+1.8  “AI System” means any system trained, refined, evaluated, or influenced
+     using the Work, directly or indirectly.
+
+1.9  “User” means any individual, entity, or computational agent exercising
+     rights under this License.
+
+1.10 “Root of Trust” means any key, credential, or component on which system
+     integrity or authentication depends.
+
+1.11 “Aggregation” means the side-by-side inclusion of independent works that
+     are not combined, linked, or integrated into a single functional work.
+
+1.12 “Linking” means static or dynamic linking, runtime linking, IPC-level
+     integration, ABI-level coupling, or hardware co-packaging in a manner
+     where the Work and another work form an integrated or interdependent whole.
+
+
+
+===============================================================================
+ARTICLE 2 — CONTRIBUTOR REPRESENTATIONS
+===============================================================================
+
+2.1  By contributing to the Work, each contributor affirms that:
+
+      (a) they have the legal right to contribute the material;
+      (b) the contribution does not violate third-party rights;
+      (c) no trade secret, NDA, or employment restriction is being breached; and
+      (d) they grant all rights required under this License.
+
+2.2  Contributions are merged under this License automatically.
+
+
+
+===============================================================================
+ARTICLE 3 — GRANT OF RIGHTS
+===============================================================================
+
+Subject to compliance with this License, the User receives a perpetual,
+worldwide, royalty-free, irrevocable license to:
+
+  (a) use, operate, execute, fabricate, display, or deploy the Work;
+  (b) study, inspect, reproduce, and reverse-engineer the Work;
+  (c) modify, adapt, and create Derivative Works;
+  (d) distribute the Work or any Derivative Work; and
+  (e) integrate or embed the Work into any system, subject to Article 4.
+
+All rights not expressly granted are withheld.
+
+
+
+===============================================================================
+ARTICLE 4 — RECIPROCITY (COPYLEFT) & LINKING
+===============================================================================
+
+4.1  All Derivative Works must be licensed solely under this License.
+
+4.2  Aggregation does not create a Derivative Work.
+
+4.3  Any form of Linking—including static, dynamic, runtime, or ABI-integrated
+     linking—creates a Derivative Work and triggers all obligations herein.
+
+4.4  IPC, message passing, or coprocessor integration that depends on the Work
+     for core functionality constitutes Linking.
+
+4.5  No additional terms, restrictions, or conditions may be imposed.
+
+4.6  Conflicting provisions in NDAs, EULAs, ToS, or similar agreements are void.
+
+
+
+===============================================================================
+ARTICLE 5 — SOURCE FORM OBLIGATION
+===============================================================================
+
+5.1  Distribution requires complete, corresponding Source Form in a fully
+     editable, unencrypted, unobfuscated, and openly documented format.
+
+5.2  Build scripts, toolchains, compiler flags, and all required components
+     must be included.
+
+5.3  Intentional obfuscation in compilation or packaging is prohibited.
+
+5.4  Partial disclosure constitutes a violation.
+
+
+
+===============================================================================
+ARTICLE 6 — PATENTS
+===============================================================================
+
+6.1  Contributors grant a perpetual, irrevocable, royalty-free patent license
+     covering all rights necessary to use, modify, and distribute the Work and
+     all Derivative Works.
+
+6.2  Initiating a patent claim alleging infringement by the Work or a Derivative
+     Work results in immediate and permanent termination of rights.
+
+6.3  All patent rights granted herein are irrevocable.
+
+
+
+===============================================================================
+ARTICLE 7 — PROHIBITION OF RESTRICTION TECHNOLOGIES
+===============================================================================
+
+7.1  The Work or Derivative Works shall not be distributed, executed, or
+     deployed with TRMs or on systems employing TRMs that restrict user
+     modification or replacement.
+
+7.2  Anti-Tivoization: No hardware may be designed, manufactured, or
+     distributed in a manner that prevents or obstructs execution of user-
+     modified versions.
+
+7.3  Secure Boot Exception — permitted only if:
+
+       (a) the User exclusively controls all keys;
+       (b) the User may add, replace, revoke, or remove keys;
+       (c) verification can be fully disabled;
+       (d) no irreversible fuse is used; and
+       (e) all user-modified firmware may be executed.
+
+7.4  TPM / HSM / Secure Element Exception — permitted only if:
+
+       (a) all cryptographic keys are user-generated and user-controlled;
+       (b) no vendor trust is imposed;
+       (c) no hardware fuse or Root of Trust prevents modification;
+       (d) remote attestation is optional and user-controlled;
+       (e) platform binding may be overridden; and
+       (f) firmware is replaceable by the User.
+
+7.5  Any system refusing to execute user-modified versions is in violation.
+
+
+
+===============================================================================
+ARTICLE 8 — AI / MACHINE LEARNING CONDITIONS
+===============================================================================
+
+8.1  The Work may not be used for training, refining, evaluating, or generating
+     datasets for any Closed System AI.
+
+8.2  AI Systems trained on the Work must:
+
+       (a) be licensed under this License;
+       (b) disclose all training data;
+       (c) disclose full training procedures;
+       (d) publish fully editable model weights; and
+       (e) be fully auditable and modifiable.
+
+8.3  Prohibited practices include feature extraction, embeddings, synthetic
+     dataset generation, latent representation learning, distillation, or
+     indirect training of any kind.
+
+8.4  Circumvention by proxies, intermediaries, or synthetic methods is
+     prohibited.
+
+
+
+===============================================================================
+ARTICLE 9 — PRIVATE USE
+===============================================================================
+
+9.1  Private use, study, and modification without Distribution are unrestricted.
+
+9.2  Upon Distribution, all obligations apply in full.
+
+
+
+===============================================================================
+ARTICLE 10 — FUTURE TECHNOLOGIES
+===============================================================================
+
+10.1 This License applies to all computational modalities, including quantum,
+     neuromorphic, biological, extraterrestrial, autonomous, synthetic, and
+     speculative systems.
+
+10.2 No future technology may circumvent or supersede this License.
+
+
+
+===============================================================================
+ARTICLE 11 — IMMUTABILITY
+===============================================================================
+
+11.1 This License may not be altered.
+
+11.2 Future versions may strengthen but not weaken obligations.
+
+11.3 “OSL-UCL-or-later” clauses authorize automatic adoption of stronger future
+     versions.
+
+
+
+===============================================================================
+ARTICLE 12 — AUDIT
+===============================================================================
+
+12.1 The Licensor may request reasonable proof of compliance.
+
+12.2 Users shall provide such proof within a reasonable period.
+
+12.3 Failure to provide proof constitutes a violation.
+
+12.4 Audit requests shall not require disclosure of unrelated confidential
+     information.
+
+
+
+===============================================================================
+ARTICLE 13 — ENFORCEMENT
+===============================================================================
+
+13.1 Violations result in immediate termination of all rights under this
+     License.
+
+13.2 Upon violation, the Licensor may:
+
+       (a) seek injunctive relief;
+       (b) require cessation of Distribution;
+       (c) compel complete Source Form disclosure;
+       (d) demand cure; and
+       (e) recover legal costs where permitted.
+
+13.3 Patent-based terminations are permanent.
+
+13.4 Reinstatement requires:
+
+       (a) a complete public cure; and
+       (b) absence of ongoing infringement action.
+
+
+
+===============================================================================
+ARTICLE 14 — ATTRIBUTION
+===============================================================================
+
+14.1 Distributions must prominently display:
+
+       (a) the names of the original authors;
+       (b) the name and version of this License; and
+       (c) a changelog of modifications.
+
+14.2 Attribution must be visible to end users.
+
+
+
+===============================================================================
+ARTICLE 15 — EXPORT AND LOCAL LAWS
+===============================================================================
+
+15.1 Users are solely responsible for compliance with applicable export,
+     import, or cryptographic control regulations.
+
+15.2 The Licensor disclaims liability for conflicts arising from local laws.
+
+
+
+===============================================================================
+ARTICLE 16 — SUPREMACY OF LICENSE
+===============================================================================
+
+16.1 This License supersedes all conflicting contractual terms.
+
+16.2 Conflicting provisions are void without affecting the remaining terms.
+
+
+
+===============================================================================
+ARTICLE 17 — GOVERNING LAW
+===============================================================================
+
+17.1 This License is governed by the substantive laws of Switzerland.
+
+17.2 No choice-of-law rule shall alter this selection.
+
+
+
+===============================================================================
+ARTICLE 18 — DISPUTE RESOLUTION
+===============================================================================
+
+18.1 Disputes shall be resolved by arbitration under the ICC Rules of
+     Arbitration or the WIPO Arbitration Rules.
+
+18.2 Seat of arbitration: Geneva, Switzerland.
+     Language: English.
+
+
+
+===============================================================================
+ARTICLE 19 — SEVERABILITY
+===============================================================================
+
+19.1 If any provision is held unenforceable, the remainder remains in effect.
+
+19.2 Courts shall interpret unenforceable provisions to most closely effectuate
+     the original intent.
+
+
+===============================================================================
+ARTICLE 20 — INBOUND LICENSE COMPATIBILITY
+===============================================================================
+
+20.1  Works originally licensed under permissive licenses that impose only
+      attribution and notice obligations — including but not limited to the
+      MIT License, BSD 2-Clause, BSD 3-Clause, and ISC License — may be
+      incorporated into a Work or Derivative Work licensed under OSL-UCL,
+      provided that all required notices are preserved in the attribution
+      section defined in Article XIV.
+
+20.2  Works licensed under the Apache License, Version 2.0, may be incorporated
+      into OSL-UCL-licensed projects, provided that:
+
+        (a) all copyright, license, and NOTICE file contents are preserved
+            and included under Article XIV;
+        (b) no Apache-specific obligations are imposed on downstream users;
+        (c) any Apache patent licensing clauses are satisfied upstream.
+
+20.3  Incorporation of material under this Article does not modify or waive the
+      requirement in Article IV that all resulting Derivative Works be
+      licensed solely under OSL-UCL.
+
+20.4  This Article does not permit incorporation of material under licenses
+      that:
+
+        (a) require continued license propagation (e.g. GPL, LGPL, AGPL);
+        (b) impose additional copyleft obligations or contractual terms;
+        (c) include field-of-use limitations or non-commercial restrictions;
+        (d) conflict with the exclusive licensing requirement of Article IV.
+
+20.5  In the event of ambiguity, the interpretation most protective of user
+      freedom and most consistent with universal reciprocity shall prevail.
+
+
+===============================================================================
+ARTICLE 21 — DISCLAIMER
+===============================================================================
+
+THE WORK IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND. THE LICENSOR SHALL
+NOT BE LIABLE FOR ANY DAMAGES, WHETHER DIRECT, INDIRECT, INCIDENTAL, OR
+CONSEQUENTIAL.
+
+
+
+===============================================================================
+END OF LICENSE — OSL-UCL VERSION 2.4.0
+===============================================================================
